@@ -1,0 +1,52 @@
+/* Language Switcher Styles */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .lang-btn {
+    background: none;
+    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: var(--transition);
+  }
+  
+  .lang-btn:hover,
+  .lang-btn.active {
+    color: var(--color-accent);
+    background-color: var(--color-hover);
+    border-radius: 5px;
+  }
+  
+  
+  
+  /*language FaQ buttons switch*/
+  #languageToggle {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    background: none;
+    border: 10px;
+    color: var(--color-text);
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    padding: 10px 20px;
+    transition: var(--transition);
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  #languageToggle:hover,
+  #languageToggle.active {
+    color: var(--color-accent);
+    background-color: var(--color-hover);
+    border-radius: 5px;
+  
+  }
+  
